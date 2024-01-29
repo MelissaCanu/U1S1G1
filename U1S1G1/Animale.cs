@@ -14,5 +14,18 @@ namespace U1S1G1
             get { return _razza; }
             set { _razza = value; }
         }
+        public string PerditaPelo(int valore)
+        {
+            if (valore > 3)
+            {
+                return "perde molto pelo";
+            }
+            else
+            {
+                {
+                    return "perde poco pelo";
+                }
+            }
+        }
     }
 }
