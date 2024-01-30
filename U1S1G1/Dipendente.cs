@@ -29,9 +29,7 @@ namespace U1S1G1
             }
             else
             {
-                {
                     return "corso di aggiornamento";
-                }
             }
         }
     }

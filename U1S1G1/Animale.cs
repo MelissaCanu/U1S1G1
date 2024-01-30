@@ -22,9 +22,7 @@ namespace U1S1G1
             }
             else
             {
-                {
                     return "perde poco pelo";
-                }
             }
         }
     }

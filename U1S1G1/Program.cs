@@ -34,6 +34,7 @@ namespace U1S1G1
             Console.WriteLine("\n");
             Console.WriteLine("\n");
 
+
             // animale
 
             Animale animale1 = new Animale();
@@ -63,6 +64,7 @@ namespace U1S1G1
             Console.WriteLine("Perdita pelo: " + animale2.Razza+ ": " + Messaggio4);
             Console.WriteLine("\n");
             Console.WriteLine("\n");
+           
 
             // dipendente
 
@@ -86,6 +88,7 @@ namespace U1S1G1
             Console.WriteLine("Rendimento lavoratore: " + dipendente2.Nome + " " + dipendente2.Cognome + ": " + Messaggio6);
             Console.WriteLine("\n");
             Console.WriteLine("\n");
+   
 
             // veicolo
 
@@ -102,15 +105,15 @@ namespace U1S1G1
             Console.WriteLine("Veicolo 2: " + veicolo2.Marca + " " + veicolo2.Modello);
             Console.WriteLine("\n");
 
-            string Messaggio7 = veicolo1.MaxKmh("200");
+            string Messaggio7 = veicolo1.MaxKmh(200.ToString());
             Console.WriteLine("Max km/h: " + veicolo1.Marca + " " + veicolo1.Modello + ": " + Messaggio7);
             Console.WriteLine("\n");
 
             string Messaggio8 = veicolo2.MaxKmh("250");
             Console.WriteLine("Max km/h: " + veicolo2.Marca + " " + veicolo2.Modello + ": " + Messaggio8);
             Console.WriteLine("\n");
-
             Console.ReadLine();
+
              
 
         }

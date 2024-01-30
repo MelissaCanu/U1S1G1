@@ -24,9 +24,7 @@ namespace U1S1G1
             }
             else
             {
-                {
                     return "dai che ce la fai";
-                }
             }
         }
     }
